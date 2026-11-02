@@ -1,0 +1,10 @@
+{
+  "name": "x-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fila de rascunhos para o X (@luanzeraAI). Não publica: o Luan posta à mão.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
