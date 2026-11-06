@@ -42,6 +42,12 @@ x-bot/
 
 Um rascunho é um `.md` com cabeçalho (`id`, `status`, datas) e os tweets separados por `===`.
 
+## Voz (`voz\amostras.md`)
+
+O arquivo guarda só as amostras, para o Brook imitar o tom: de 20 a 30 posts do Luan, um por bloco, separados por uma linha com `---`. Escolha os que soam mais como o Luan, não os que mais viralizaram. Abaixo dos posts, se quiser, acrescente palavras e expressões que ele usa muito e o que ele nunca escreveria.
+
+Enquanto houver só o título no arquivo, ele está vazio: o Brook não inventa uma voz e pede as amostras. Com poucos posts ele já começa e ajusta o tom pelas correções do Luan.
+
 ## Regras
 
 - Nenhum post sai sem o OK do Luan, a cada post. `aprovar` só roda quando o Luan disser qual rascunho aprova.

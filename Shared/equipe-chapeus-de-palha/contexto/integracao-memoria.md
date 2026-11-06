@@ -37,5 +37,7 @@ Verificado na tela em 2026-10-31: as configurações do canal `equipe` têm os c
 - Um fato por linha, curto, com data quando for decisão.
 - Nada de segredos, tokens ou senhas.
 - Dados pessoais (currículo, perfil, conversas) ficam em `privado\`, fora daqui.
+- Pasta não é barreira contra os agentes. Segundo o guia do OpenBot, o modo "Workspace only" limita a escrita, mas não bloqueia leitura de arquivos nem acesso à rede. `privado\` e os segredos locais ficam protegidos por regra, não por bloqueio, então não guarde na máquina o que um agente não possa ler.
+- Os arquivos ficam só no computador que roda o OpenBot. O acesso pelo celular não sincroniza esta pasta.
 - Só o Luffy e o Luan editam `contexto\`. Os outros agentes sugerem a alteração a eles.
 - Contexto curto custa menos tokens em toda sessão. Se um arquivo crescer, divida e deixe um ponteiro.

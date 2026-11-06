@@ -77,6 +77,12 @@ Não vi a tela de criação de agentes do OpenBot, então os nomes exatos de bot
 - **Jinbe criado** em 2026-10-31: Gemini 3.8 Flash, esforço Médio (decisão minha: é leitura em volume; o Gemini 4 Argon fica para revisão e sínteses difíceis, trocando o modelo nas configurações do agente). Ele leu `jinbe.md`, `AGENTS.md` e `projeto.md` e respondeu. Foi adicionado ao canal `equipe`, e as instruções do Luffy no app agora citam o Jinbe no roteamento.
 - Outros provedores disponíveis na lista: OpenCode (já disponível, com modelos gratuitos), Grok, Cursor, Cline e Pi (não baixados).
 
+## Tio Patinhas (CFO), em 2026-11-05
+
+- **Criado no app** (OK 2 do Luan): Tio Patinhas, "Diretor financeiro (CFO)", Antigravity, Gemini 4 Argon (`gemini-4-argon`), esforço medium. Descrição = `agentes\tio-patinhas-resumo.md`; instruções completas em `agentes\tio-patinhas.md`. Nenhuma tarefa foi dada além de uma mensagem inicial sem ferramentas ("aguardando instruções").
+- **Aplicado:** acesso "workspace" e uso do computador desligado (o agente nasceu com acesso completo e computador ligado, herdados de quem o criou). Seção nova "Finanças". Fora do canal `equipe`. Servidores MCP (Composio, GitHub) não alterados: são globais e o Luan decidiu deixá-los como estão.
+- **Pendente:** o agente nasceu com a aprovação automática LIGADA (herdada). Só o Luan pode desligar; até lá não é "Perguntar antes". Não usar o agente antes disso.
+
 ## Fluxos de trabalho (segundo ícone da barra lateral do OpenBot)
 
 Editor visual em que você coloca nós em sequência: Gatilho (Agendamento, Manual ou Webhook), Prompt, LLM, Agente, Condição, Aprovação e Saída. Há "Executar fluxo de trabalho", histórico de versões, renomear e duplicar.

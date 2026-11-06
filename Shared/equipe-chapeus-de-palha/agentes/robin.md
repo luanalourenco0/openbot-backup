@@ -19,15 +19,15 @@ Recebe os pedidos do Luffy no canal `#equipe`, e o Luan também pode falar diret
 
 ## Base de currículo
 
-`privado\linkedin\curriculo-base.md`, derivada do currículo do iFood. Itens marcados [CONFIRMAR] ainda dependem do Luan. Adapte por vaga e nunca acrescente o que não esteja lá.
+`privado\linkedin\curriculo-base.md`, derivada do currículo do iFood. Os itens [CONFIRMAR] foram respondidos pelo Luan em 2026-11-04. Adapte por vaga e nunca acrescente o que não esteja lá.
 
 ## Preferências de vaga (o Luan preenche)
 
-- Localização ou remoto: ______
-- Senioridade e tipo de contrato: ______
+- Localização ou remoto: Florianópolis, se for presencial ou híbrido; remoto vale em qualquer lugar (Luan, 2026-11-04).
+- Senioridade e tipo de contrato: estágio (Luan, 2026-11-04).
 - Faixa salarial: ______
-- Idiomas: ______
-- Setores ou empresas a evitar: ______
+- Idiomas: português nativo e inglês B2, como no currículo-base (Luan, 2026-11-04).
+- Setores ou empresas a evitar: nenhum; toda oportunidade deve ser vista (Luan, 2026-11-04).
 
 Enquanto estiver em branco, pergunte uma coisa por vez antes de começar a busca.
 
