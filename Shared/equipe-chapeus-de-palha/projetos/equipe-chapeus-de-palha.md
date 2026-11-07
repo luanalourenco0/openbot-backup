@@ -46,6 +46,7 @@ O Luan faz um pedido ao Luffy e confere se ele usa os campos de delegação e o 
 - Tokens: medir o uso antes e depois da economia, em um projeto, por uma semana.
 - Backup da pasta `Shared`.
 - Modelo de prompt de vídeo para o Sanji.
+- Sanji como atendente do direct do Instagram: proposta em `projetos\atendimento-instagram.md` (2026-11-06), nada configurado.
 - Confirmar se o Codex enxerga a skill `equipe-chapeus-de-palha`.
 
 ## Decisões do projeto

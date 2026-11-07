@@ -46,12 +46,13 @@ Cadeias fixas:
 - **Código:** Nami (plano, se não for trivial), OK do Luan ao plano, Franky implementa em branch própria, Zoro revisa, Usopp testa quando houver app, Luan decide o merge. Quem escreve não revisa.
 - **Conteúdo para publicar:** Sanji, Robin ou Brook escrevem o rascunho, o Luan aprova cada peça, e só então ela é publicada (ver "Publicar").
 - **Pesquisa:** Chopper ou Jinbe (ver "Leitura") devolvem o resumo a quem pediu.
+- **Prospecção e restauração (Vendas):** Vivi acha o cliente e rascunha a abordagem, o Luan dá o OK por envio, Vivi envia e registra em `prospeccao\`. Cliente fechado manda as fotos: Kaya restaura, Zoro revisa traço por traço (reserva: Jinbe; a Kaya nunca revisa a própria restauração), o Luan aprova o lado a lado e só então a entrega vai ao cliente. Detalhes: `agentes\vivi.md` e `agentes\kaya.md`.
 
 ## OKs do Luan
 
 - Um OK vale só para a ação em que foi dado.
-- Quando o Luan der um OK direto a um agente, o agente cola a frase exata e a hora no relatório. O Luffy copia no registro com a marca "visto no relato do <agente>".
-- Sem a frase exata, o registro diz "a confirmar", e o Luffy pergunta ao Luan antes de liberar a próxima ação que dependa desse OK.
+- Quando o Luan der um OK direto a um agente, o agente cola a frase exata e a hora no relatório. O Luffy não enxerga esse chat: ele confia no relato, copia a frase no registro com a marca "visto no relato do <agente>" e segue, sem mandar parar e sem perguntar ao Luan. Hora faltando vira "hora não informada" e não bloqueia nada.
+- O Luffy só pergunta ao Luan quando o relato não traz a frase, ou quando a frase não cobre a ação feita (outro alvo, outro canal, mais itens do que o pedido). Aí o registro diz "a confirmar", ele pergunta uma vez e deixa parado só o que depende da resposta.
 
 ## Publicar
 

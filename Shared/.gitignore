@@ -1,0 +1,4 @@
+# Lido pelo backup noturno (openbot-backup): o Git ignora estes caminhos no git add -A.
+# Fotos e dados de clientes da restauração nunca vão para o GitHub.
+equipe-chapeus-de-palha/privado/restauracao/*
+!equipe-chapeus-de-palha/privado/restauracao/LEIA.md

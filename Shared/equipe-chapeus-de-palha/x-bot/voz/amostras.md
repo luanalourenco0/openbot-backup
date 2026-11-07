@@ -150,3 +150,6 @@ Comecei hoje aplicando teu método. Conto com teus conselhos pelo caminho, e em 
 Claro mano, conto com seus conselhos pra ir melhorando
 ---
 Não é questão se vai dar bom, é quando. Vou ser o mais constante que eu puder em compartilhar projetos e adquirir conhecimento até fazer dar certo!
+---
+Opinião impopular: acho que a comunidade no geral ia preferir um certo reajuste de preço do que essa diminuição do limite do Grokbot. Tô vendo muita gente largando de mão
+
