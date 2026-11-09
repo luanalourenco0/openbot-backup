@@ -1,6 +1,6 @@
 # Projeto: equipe de agentes Chapéus de Palha
 
-Atualizado em 2026-11-02.
+Atualizado em 2026-11-08.
 
 ## Objetivo
 
@@ -8,7 +8,7 @@ Uma equipe de agentes de IA, com tema de One Piece, rodando no OpenBot com os pl
 
 ## Estado atual
 
-- OpenBot 0.56.0 instalado e configurado. Há 10 agentes (Luffy, Nami, Franky, Chopper, Zoro, Usopp, Sanji, Robin, Jinbe e Brook) e o canal `equipe`, com o Luffy como líder. O Brook foi criado em 2026-11-02 e ainda não está no canal. Modelos e esforço em `GUIA-OPENBOT.md`.
+- OpenBot 0.56.0 instalado e configurado. Há 15 agentes (lista e modelos no `AGENTS.md`) e o canal One Piece, chamado de `#equipe` nestes documentos, com o Luffy como líder. Vivi, Kaya, Tio Patinhas e Bot Builder não estão no canal: recebem por mensagem direta.
 - OpenMausBot foi desinstalado por completo.
 - CLIs instaladas: `claude` e `codex`. O Gemini roda pelo runtime do Antigravity (1.4.5) dentro do OpenBot. Grok, OpenCode, Cursor, Cline e Pi não estão instalados.
 - Planos: Claude Pro (limite semanal apertado desde 2026-10-31) e ChatGPT Plus. O Luan informou em 2026-11-02 que o limite do ChatGPT foi resetado; o Luffy não verificou.
@@ -31,6 +31,8 @@ Rodar o Astra com frequência pode esgotar o limite semanal do Plus em um ou doi
 
 - Luffy é o chefe de gabinete e porta de entrada, mas o Luan pode falar direto com qualquer agente.
 - Luffy no Haiku 5.5, com escalada para o Sonnet 5.5 se errar o encaminhamento com frequência.
-- O Sanji tem acesso total ao Instagram e à conta Meta. Post só depois do OK do Luan, a cada post.
-- No X (@luanzeraAI), o Brook escreve rascunhos, lê a conta pelo navegador do OpenBot e só posta com permissão a cada post, pelo Workflow com Aprovação (ainda não existe; até lá não posta).
+- O Sanji tem acesso total ao Instagram e à conta Meta. Publica sozinho dentro das regras de `agentes\sanji.md` (decisão de 2026-11-08).
+- No X (@luanzeraAI), o Brook monta a fila e, com um OK na fila, publica pelo navegador do OpenBot. Risco de suspensão apontado pela Nami e aceito pelo Luan em 2026-11-08.
+- Na LinkedIn, a Robin posta pelo navegador depois do OK do Luan no pacote de posts.
+- Redes Sociais têm autonomia para reduzir a fricção manual: ver o envelope no `AGENTS.md`.
 - Respostas em português do Brasil.

@@ -50,8 +50,8 @@ Enquanto houver só o título no arquivo, ele está vazio: o Brook não inventa 
 
 ## Regras
 
-- Nenhum post sai sem o OK do Luan, a cada post. `aprovar` só roda quando o Luan disser qual rascunho aprova.
-- Sem interação: o bot não curte, segue, retuíta, responde nem manda DM. Não lê o X.
+- Nenhum post sai sem o OK do Luan no texto ou na fila (decisão de 2026-11-08; ver `agentes\brook.md`). `aprovar` só roda nos rascunhos cobertos por esse OK.
+- O script não fala com o X. Quem publica e lê a conta é o Brook, pelo navegador. Sem curtir, seguir, retuitar ou DM sem pedido.
 - Contagem: link vale 23, emoji vale 2, acento vale 1. É uma aproximação do contador do X; confira no X se o tweet estiver no limite. Se a conta Premium aceitar posts longos, suba `limite` em `config.json`.
 - Divisão automática só vale para rascunho de uma parte. Uma thread escrita pelo Brook não é reescrita: se um tweet passar do limite, `aprovar` recusa e explica.
 

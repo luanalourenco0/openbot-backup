@@ -44,21 +44,24 @@ O agente não delega ao seguinte por conta própria: devolve ao Luffy, que encad
 Cadeias fixas:
 
 - **Código:** Nami (plano, se não for trivial), OK do Luan ao plano, Franky implementa em branch própria, Zoro revisa, Usopp testa quando houver app, Luan decide o merge. Quem escreve não revisa.
-- **Conteúdo para publicar:** Sanji, Robin ou Brook escrevem o rascunho, o Luan aprova cada peça, e só então ela é publicada (ver "Publicar").
+- **Conteúdo para publicar:** segue o envelope de autonomia do `AGENTS.md`. Sanji publica sozinho dentro das regras; Brook e Robin publicam depois de um OK no lote (ver "Publicar").
 - **Pesquisa:** Chopper ou Jinbe (ver "Leitura") devolvem o resumo a quem pediu.
 - **Prospecção e restauração (Vendas):** Vivi acha o cliente e rascunha a abordagem, o Luan dá o OK por envio, Vivi envia e registra em `prospeccao\`. Cliente fechado manda as fotos: Kaya restaura, Zoro revisa traço por traço (reserva: Jinbe; a Kaya nunca revisa a própria restauração), o Luan aprova o lado a lado e só então a entrega vai ao cliente. Detalhes: `agentes\vivi.md` e `agentes\kaya.md`.
 
 ## OKs do Luan
 
-- Um OK vale só para a ação em que foi dado.
+- Um OK vale só para a ação em que foi dado. Um OK a um lote de redes sociais vale para o lote inteiro.
+- Publicação dentro do envelope não gera linha em `registro-aprovacoes.md` nem pede a frase do Luan: fica no log de quem publicou (`projetos\instagram-publicados.md`, fila do `x-bot\`, arquivo de posts da Robin). O registro guarda uma linha por decisão; detalhe de execução vai para o arquivo do projeto.
 - Quando o Luan der um OK direto a um agente, o agente cola a frase exata e a hora no relatório. O Luffy não enxerga esse chat: ele confia no relato, copia a frase no registro com a marca "visto no relato do <agente>" e segue, sem mandar parar e sem perguntar ao Luan. Hora faltando vira "hora não informada" e não bloqueia nada.
 - O Luffy só pergunta ao Luan quando o relato não traz a frase, ou quando a frase não cobre a ação feita (outro alvo, outro canal, mais itens do que o pedido). Aí o registro diz "a confirmar", ele pergunta uma vez e deixa parado só o que depende da resposta.
 
 ## Publicar
 
-Tudo que publica ou envia por ferramenta (post, mensagem, candidatura) roda dentro de um Workflow com nó de Aprovação. Testado em 2026-10-31: a Aprovação bloqueia o fluxo até o Luan decidir, e Rejeitar encerra a execução. A regra escrita nas instruções do agente é o segundo cinto, não o primeiro.
+Dentro do envelope de autonomia do `AGENTS.md`, publicar não pede aprovação por etapa. Fora dele (mensagem a terceiros, candidatura, post fora das regras), o que publica ou envia por ferramenta roda dentro de um Workflow com nó de Aprovação. Testado em 2026-10-31: a Aprovação bloqueia o fluxo até o Luan decidir, e Rejeitar encerra a execução.
 
-Hoje só o Sanji publica por ferramenta (Instagram, pelo Composio), no Workflow "Instagram v2 (PUBLICA): publicar com aprovação". A Robin não publica: o Luan posta à mão. O Brook lê a conta @luanzeraAI pelo navegador do OpenBot e só posta com permissão a cada post, pelo Workflow com Aprovação (ainda não existe; até lá não posta). Se a Robin ganhar uma ferramenta de publicar, o Workflow com Aprovação é criado antes de a ferramenta ser usada.
+- **Sanji:** lote avulso no Workflow "Instagram: lote autônomo (sem aprovação)". O que fica fora das regras usa o "Instagram v2 (PUBLICA): publicar com aprovação".
+- **Brook:** o Luan dá um OK na fila da semana; a rotina diária publica pelo navegador, um post por execução.
+- **Robin:** o Luan dá um OK no pacote de posts; ela posta pelo navegador, onde o LinkedIn está logado.
 
 ## Leitura: Chopper ou Jinbe
 

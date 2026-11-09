@@ -35,6 +35,7 @@ O Luan faz um pedido ao Luffy e confere se ele usa os campos de delegação e o 
 
 ## Pendências da equipe
 
+- Redução de fricção e autonomia de Redes Sociais (08/11): `projetos\reducao-friccao-2026-11.md`.
 - Permissões somente leitura do Chopper e do Zoro: o app não tem esse nível (só "Espaço de trabalho", "Perguntar antes" e "Acesso completo"). Hoje vale a regra escrita.
 - Brook: entrar no canal `#equipe`.
 - Skill `equipe-chapeus-de-palha` (em `~\.agents\skills\`) e `exportacao\briefing-chatgpt-codex.md` ainda listam nove agentes, sem o Brook.
