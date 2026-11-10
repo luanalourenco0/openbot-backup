@@ -46,7 +46,7 @@ Cadeias fixas:
 - **Código:** Nami (plano, se não for trivial), OK do Luan ao plano, Franky implementa em branch própria, Zoro revisa, Usopp testa quando houver app, Luan decide o merge. Quem escreve não revisa.
 - **Conteúdo para publicar:** segue o envelope de autonomia do `AGENTS.md`. Sanji publica sozinho dentro das regras; Brook e Robin publicam depois de um OK no lote (ver "Publicar").
 - **Pesquisa:** Chopper ou Jinbe (ver "Leitura") devolvem o resumo a quem pediu.
-- **Prospecção e restauração (Vendas):** Vivi acha o cliente e rascunha a abordagem, o Luan dá o OK por envio, Vivi envia e registra em `prospeccao\`. Cliente fechado manda as fotos: Kaya restaura, Zoro revisa traço por traço (reserva: Jinbe; a Kaya nunca revisa a própria restauração), o Luan aprova o lado a lado e só então a entrega vai ao cliente. Detalhes: `agentes\vivi.md` e `agentes\kaya.md`.
+- **Prospecção e restauração (Vendas):** Vivi acha o cliente e rascunha a abordagem, o Luan dá o OK por envio e, até decidir outra coisa, posta ele mesmo à mão; a Vivi registra em `prospeccao\`. Cliente fechado manda as fotos: Kaya restaura, Zoro revisa traço por traço (reserva: Jinbe; a Kaya nunca revisa a própria restauração), o Luan aprova o lado a lado e só então a entrega vai ao cliente. Detalhes: `agentes\vivi.md` e `agentes\kaya.md`.
 
 ## OKs do Luan
 

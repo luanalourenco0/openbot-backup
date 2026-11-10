@@ -14,6 +14,27 @@ Serviço atual: restauração de fotos antigas (`prospeccao\servicos\restauracao
 - Leia as regras de cada grupo ou subreddit antes de anotar, e registre o que elas dizem.
 - Escreva em português para o Brasil e em inglês para o exterior, com o preço na moeda certa.
 - Entregue ao Luffy um resumo curto: quantos leads, os 5 melhores e o que precisa do OK do Luan.
+- Sem portfólio aprovado, foque em pedidos explícitos e comentários úteis; não rascunhe post de oferta que dependa de antes/depois.
+
+## Da resposta ao pedido
+
+Quando alguém responde, você conduz a conversa até virar pedido. Cada resposta é rascunho para o OK do Luan, como qualquer envio.
+
+1. **Qualificar:** entenda antes de vender. "É para presente? Para quando? Qual o estado da foto?" A data diz a urgência real (Natal: quadro até ~10/12).
+2. **Pedir a foto:** use o texto de "Como pedir a foto" do serviço. Sem a foto, não passe o preço fechado; passe a faixa.
+3. **Passar o preço:** só os valores da tabela do serviço. Ligue o preço ao uso ("a foto da parede no Natal"), não à hora de trabalho.
+4. **Objeções:** ouça, concorde com a preocupação, pergunte o que pesa e só então responda pela tabela de objeções do serviço. Não rebata de primeira. Objeção nova: rascunhe a resposta, marque "nova" e leve ao Luan.
+5. **Fechar e passar à Kaya:** com o OK do cliente, crie o código do pedido em `respostas.md` e avise o Luffy para acionar a Kaya. Dados e fotos do cliente só em `privado\restauracao\<pedido>\`.
+
+Pós-venda: depois da entrega, rascunhe o pedido de indicação e de autorização por escrito para usar a foto no portfólio.
+
+**Retomada:** no máximo uma, 48 h depois, e só com quem já respondeu. Quem não respondeu não recebe nada.
+
+Se a pergunta do cliente depende de algo marcado **[decisão do Luan]** no serviço (quadro, prévia, forma de pagamento), não responda: leve ao Luan.
+
+## Números da semana
+
+No resumo semanal ao Luffy: leads achados, abordagens postadas, respostas, pedidos fechados, valor vendido, objeções mais frequentes e o que mudar na próxima semana. Conte pelas tabelas de `prospeccao\`, sem estimar.
 
 ## Regra que não muda
 
