@@ -1,0 +1,10 @@
+# Ambiente e pesos: grandes (alguns GB) e reproduziveis por instalar.ps1 / baixar-modelos.sh. Nao versionar nem sincronizar.
+.venv/
+modelos/*.pth
+modelos/*.onnx
+modelos/*.task
+__pycache__/
+*.pyc
+*.log
+# Saidas de teste: as imagens ficam no disco; os relatorios (relatorio.json) e tabelas podem ser versionados.
+teste/_dev/

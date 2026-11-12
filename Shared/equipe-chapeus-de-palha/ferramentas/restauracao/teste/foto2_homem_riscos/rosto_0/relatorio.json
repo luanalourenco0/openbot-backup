@@ -1,0 +1,222 @@
+{
+  "versao": "0.1.0",
+  "data": "2026-11-11T14:30:35",
+  "entrada": {
+    "arquivo": "foto2_homem_riscos.jpg",
+    "largura": 467,
+    "altura": 629
+  },
+  "parametros": {
+    "rosto": 0.0,
+    "escala": 2,
+    "cor": false,
+    "mascara_manual": false,
+    "sem_auto": false,
+    "max_mascara_pct": 12.0,
+    "dispositivo": "cuda"
+  },
+  "etapas": {
+    "1_ajuste": {
+      "monocromatica": true,
+      "niveis": {
+        "p0_5": 2.0,
+        "p99_5": 219.0,
+        "ganho": 1.175
+      },
+      "clahe": {
+        "clipLimit": 1.6,
+        "grade": [
+          8,
+          8
+        ],
+        "mistura": 0.6
+      },
+      "ruido": {
+        "sigma_estimado": 5.02,
+        "h_nlm": 4.02
+      },
+      "cor": "convertida para tons de cinza neutros (remove o amarelado/sepia)"
+    },
+    "2_riscos": {
+      "area_mascara_px": 5813,
+      "area_mascara_pct": 1.979,
+      "deteccao_automatica": {
+        "limiar": 71.3,
+        "kernel_morfologico": 5,
+        "componentes_candidatos": 334,
+        "motivos": {
+          "aceito_linha": 10,
+          "aceito_poeira": 10,
+          "pequeno": 140,
+          "no_rosto_protegido": 1,
+          "no_rosto_nao_linha": 1,
+          "textura_ao_redor": 149,
+          "junto_de_borda_grande": 18,
+          "nem_linha_nem_poeira": 5
+        },
+        "dilatacao_px": 2
+      },
+      "janelas_lama": 4,
+      "provedor_lama": "CUDAExecutionProvider"
+    },
+    "3_rosto": {
+      "pulada": "--rosto 0"
+    },
+    "4_resolucao": {
+      "escala": 2,
+      "saida": [
+        934,
+        1258
+      ]
+    },
+    "7_lado_a_lado": {
+      "arquivos": [
+        "lado_a_lado.png",
+        "lado_a_lado_rosto.png"
+      ]
+    }
+  },
+  "avisos": [],
+  "identidade": {
+    "metodo": "nota = min(geometria, estrutura). geometria: erro RMS dos 106 pontos dos tracos centrais (olhos, sobrancelhas, nariz e labios) do MediaPipe Face Landmarker apos alinhamento por semelhanca, dividido pela distancia entre os olhos, convertido por 1/(1+(erro/E0)^2). estrutura: SSIM do rosto alinhado (192 px, cinza, tons casados) dentro de uma elipse central. Nenhum modelo de reconhecimento facial e usado (os mais comuns sao nao comerciais).",
+    "limite_original": 0.4,
+    "limite_etapa": 0.6,
+    "status_geral": "APROVADO",
+    "reprovado_em": [],
+    "rostos": [
+      {
+        "rosto": 1,
+        "bbox_original_px": [
+          174.4,
+          226.2,
+          246.5,
+          304.0
+        ],
+        "votos_deteccao": 9,
+        "detectado_no_resultado": true,
+        "erro_geometrico_norm": 0.0263,
+        "nota_geometria": 0.746,
+        "ssim_estrutura": 0.911,
+        "nota": 0.746,
+        "status": "APROVADO"
+      }
+    ],
+    "por_etapa": {
+      "01_ajuste": [
+        {
+          "rosto": 1,
+          "nota": 0.661
+        }
+      ],
+      "02_riscos": [
+        {
+          "rosto": 1,
+          "nota": 0.708
+        }
+      ],
+      "04_resolucao_2x": [
+        {
+          "rosto": 1,
+          "nota": 0.746
+        }
+      ]
+    },
+    "transicoes": {
+      "original -> 01_ajuste": [
+        {
+          "rosto": 1,
+          "bbox_original_px": [
+            174.4,
+            226.2,
+            246.5,
+            304.0
+          ],
+          "votos_deteccao": 9,
+          "detectado_no_resultado": true,
+          "erro_geometrico_norm": 0.0322,
+          "nota_geometria": 0.661,
+          "ssim_estrutura": 0.866,
+          "nota": 0.661,
+          "status": "APROVADO"
+        }
+      ],
+      "01_ajuste -> 02_riscos": [
+        {
+          "rosto": 1,
+          "bbox_original_px": [
+            173.5,
+            226.4,
+            246.0,
+            304.1
+          ],
+          "votos_deteccao": 7,
+          "detectado_no_resultado": true,
+          "erro_geometrico_norm": 0.0135,
+          "nota_geometria": 0.918,
+          "ssim_estrutura": 0.927,
+          "nota": 0.918,
+          "status": "APROVADO"
+        }
+      ],
+      "02_riscos -> 04_resolucao_2x": [
+        {
+          "rosto": 1,
+          "bbox_original_px": [
+            172.7,
+            226.0,
+            247.8,
+            304.6
+          ],
+          "votos_deteccao": 6,
+          "detectado_no_resultado": true,
+          "erro_geometrico_norm": 0.0352,
+          "nota_geometria": 0.621,
+          "ssim_estrutura": 0.86,
+          "nota": 0.621,
+          "status": "APROVADO"
+        }
+      ]
+    }
+  },
+  "tempos_s": {
+    "deteccao_rostos_original": 0.66,
+    "1_ajuste": 0.52,
+    "deteccao_rostos_ajustada": 0.64,
+    "2_riscos": 49.27,
+    "4_resolucao": 2.64,
+    "6_identidade": 1.83,
+    "7_lado_a_lado": 0.76
+  },
+  "tempo_total_s": 57.25,
+  "arquivos_saida": [
+    "01_ajuste.png",
+    "02_mascara.png",
+    "02_riscos.png",
+    "04_resolucao_2x.png",
+    "lado_a_lado.png",
+    "lado_a_lado_rosto.png",
+    "relatorio.json",
+    "resultado.png"
+  ],
+  "ambiente": {
+    "python": "3.11.18",
+    "sistema": "Windows-10-10.0.26300-SP0",
+    "numpy": "1.26.4",
+    "opencv": "4.9.0",
+    "pillow": "13.0.0",
+    "torch": "2.1.2+cu118",
+    "cuda_torch": "11.8",
+    "onnxruntime": "1.17.1",
+    "mediapipe": "0.10.14",
+    "script": "0.1.0",
+    "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+  },
+  "modelos_sha256": {
+    "GFPGANv1.4.pth": "e2cd4703ab14f4d01fd1383a8a8b266f9a5833dacee8e6a79d3bf21a1b6be5ad",
+    "RealESRGAN_x2plus.pth": "49fafd45f8fd7aa8d31ab2a22d14d91b536c34494a5cfe31eb5d89c2fa266abb",
+    "RealESRGAN_x4plus.pth": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1",
+    "lama_fp32.onnx": "1faef5301d78db7dda502fe59966957ec4b79dd64e16f03ed96913c7a4eb68d6",
+    "face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "ddcolor_paper_tiny.pth": "81dd643904f4664c3718513e3320ae3db0c567f0d3e18398606659adee7bfc17"
+  }
+}

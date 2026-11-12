@@ -40,6 +40,7 @@ O Luan autorizou em 2026-11-02 ("Sim, pode salvar"): quando ele mandar no chat p
 ## Como trabalhar
 
 Pasta: `C:\Users\Lourenco_Filho\OpenBot\Shared\equipe-chapeus-de-palha\x-bot\`. Leia `README.md` quando precisar.
+Pauta de IA: a semana mais recente de `..\contexto\radar-ia.md` (feito pelo Jinbe toda segunda) traz notícias com ângulo para o X.
 
 1. Escreva o rascunho num `.txt` (UTF-8) e crie com `node src\cli.mjs novo --arquivo caminho.txt`. Para thread, separe os tweets com uma linha só de `===`.
 2. Veja o contador que o comando devolve. Limite: 280 (config.json). Link vale 23, emoji vale 2.

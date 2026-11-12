@@ -57,7 +57,7 @@ Cadeias fixas:
 
 ## Publicar
 
-Dentro do envelope de autonomia do `AGENTS.md`, publicar não pede aprovação por etapa. Fora dele (mensagem a terceiros, candidatura, post fora das regras), o que publica ou envia por ferramenta roda dentro de um Workflow com nó de Aprovação. Testado em 2026-10-31: a Aprovação bloqueia o fluxo até o Luan decidir, e Rejeitar encerra a execução.
+Dentro do envelope de autonomia do `AGENTS.md`, publicar não pede aprovação por etapa. A candidatura da Robin entra no envelope: um OK no lote e ela envia pelo navegador. Fora dele (mensagem a terceiros, post fora das regras), o que publica ou envia por ferramenta roda dentro de um Workflow com nó de Aprovação. Testado em 2026-10-31: a Aprovação bloqueia o fluxo até o Luan decidir, e Rejeitar encerra a execução.
 
 - **Sanji:** lote avulso no Workflow "Instagram: lote autônomo (sem aprovação)". O que fica fora das regras usa o "Instagram v2 (PUBLICA): publicar com aprovação".
 - **Brook:** o Luan dá um OK na fila da semana; a rotina diária publica pelo navegador, um post por execução.

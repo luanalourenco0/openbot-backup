@@ -1,6 +1,6 @@
 # Projeto: equipe de agentes Chapéus de Palha
 
-Atualizado em 2026-11-08.
+Atualizado em 2026-11-11.
 
 ## Objetivo
 
@@ -8,7 +8,7 @@ Uma equipe de agentes de IA, com tema de One Piece, rodando no OpenBot com os pl
 
 ## Estado atual
 
-- OpenBot 0.56.0 instalado e configurado. Há 15 agentes (lista e modelos no `AGENTS.md`) e o canal One Piece, chamado de `#equipe` nestes documentos, com o Luffy como líder. Vivi, Kaya, Tio Patinhas e Bot Builder não estão no canal: recebem por mensagem direta.
+- OpenBot 0.56.0 instalado e configurado. Há 15 agentes (lista e modelos no `AGENTS.md`) e o canal One Piece, chamado de `#equipe` nestes documentos, com o Luffy como líder. Em 2026-11-11 o Luan colocou no canal Vivi, Kaya, Tio Patinhas, Bot Builder, Kureha e Bon Clay. Agentes novos do dia: Kureha (Instagram da Katia, `projetos\instagram-katia.md`) e Bon Clay (edição de vídeo, `editor-video\`), ambos aguardando OK do Luan. Restauração de fotos (`ferramentas\restauracao\`, Franky): reprovada para venda por cor escura e checagem de identidade pouco confiável (revisões do Zoro e da Kaya, 2026-11-11); Kaya ainda não integrada.
 - OpenMausBot foi desinstalado por completo.
 - CLIs instaladas: `claude` e `codex`. O Gemini roda pelo runtime do Antigravity (1.4.5) dentro do OpenBot. Grok, OpenCode, Cursor, Cline e Pi não estão instalados.
 - Planos: Claude Pro (limite semanal apertado desde 2026-10-31) e ChatGPT Plus. O Luan informou em 2026-11-02 que o limite do ChatGPT foi resetado; o Luffy não verificou.

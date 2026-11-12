@@ -22,6 +22,8 @@ Trabalho de um passo e um agente é **pedido** (uma linha no registro). Trabalho
 | Doflamingo | Auxiliar de desenvolvimento: tarefas mecânicas já planejadas | Antigravity | Gemini 3.8 Flash |
 | Usopp | Testador, usa o app como usuário | Codex | Sol 6.1 |
 | Sanji | Instagram Luz & Encanto: publica sozinho dentro do envelope | Codex | Terra 6.1 |
+| Kureha | Instagram da Katia Ribeiro (podologia, @katiaribeiro.podologa): repagina e publica o lote depois do OK do Luan (`instagram-katia\`) | Codex | Terra 6.1 (reserva: Gemini 3.8 Flash) |
+| Bon Clay | Editor de vídeo para redes sociais: guia de estilo, storyboard aprovado pelo Luan e vídeo final; não publica (`editor-video\`) | Claude Code | Sonnet 5.5 |
 | Robin | LinkedIn: perfil, currículo, posts, vagas; posta pelo navegador depois do OK do Luan | Antigravity | Gemini 3.8 Flash (adaptação por cota, 05/11) |
 | Jinbe | Pesquisa e leitura de material grande ou externo (web, PDFs, vídeos, repositórios); revisor reserva | Gemini | Gemini 3.8 Flash (Gemini 4 Argon para revisão e sínteses difíceis) |
 | Brook | X/Twitter @luanzeraAI: monta a fila e, com um OK na fila, publica pelo navegador (`x-bot\`) | Grok | Grok 4.7 |
@@ -34,7 +36,7 @@ O Astra (GPT-6) só quando o Luan pedir. Instruções completas de cada um: `age
 
 ## Regras comuns
 
-- Precisa do OK explícito do Luan, por ação: merge, push em branch protegida, deploy, exclusão, dados sensíveis ou credenciais, nova dependência, serviço pago, automação, candidatar-se a vaga, enviar mensagem em nome do Luan, usar o Astra. Publicar em redes sociais segue o envelope abaixo.
+- Precisa do OK explícito do Luan, por ação: merge, push em branch protegida, deploy, exclusão, dados sensíveis ou credenciais, nova dependência, serviço pago, automação, enviar mensagem em nome do Luan, usar o Astra. Publicar em redes sociais e candidatar-se a vaga seguem o envelope abaixo.
 - Fora do envelope, publicar ou enviar por ferramenta só dentro de um Workflow com nó de Aprovação. Instrução escrita sozinha não basta.
   - Exceção (decisão do Luan em 2026-11-06, "Pode ser direto"): mensagens às igrejas podem sair direto pelo navegador, sem o Workflow. Continua valendo o OK do Luan para cada envio e o registro de cada envio e resposta em `registro-aprovacoes.md` e no arquivo do projeto.
 - Criar, alterar ou rodar workflow só a pedido direto do Luan. Rotinas e gatilhos agendados que ele aprovou rodam sozinhos. Remover ou contornar um nó de Aprovação exige que o pedido diga isso explicitamente.
@@ -55,8 +57,19 @@ Dentro do envelope de cada agente, publicar e rodar o fluxo não pede OK, e o re
 | Agente | Sem pedir OK | Com um OK | Sempre por ação |
 |---|---|---|---|
 | Sanji (Instagram) | Publicar dentro das regras de `agentes\sanji.md` ("Publica sozinho dentro das regras, sem aprovação") | Lote com algo fora das regras | Anúncio, segurança da conta, exclusão, igrejas e abordagem a terceiros |
+| Kureha (Instagram da Katia) | Montar o lote, ler a conta | O lote da semana; depois publica pelo navegador (Luan, 2026-11-11: "Bot posta após OK no lote") | Bio, destaques, fixados, direct, comentário, anúncio, segurança da conta, exclusão |
 | Brook (X) | Montar a fila, ler a conta | A fila da semana; depois publica pelo navegador ("Um OK para a fila, publicando pelo navegador"; risco de suspensão apontado pela Nami e aceito pelo Luan) | Curtir, seguir, retuitar, DM |
-| Robin (LinkedIn) | Montar o pacote de posts, buscar vagas | O pacote de posts; depois posta pelo navegador ("deixar como está, ela entra e consegue postar por mim") | Candidatura, mensagem, convite, edição de perfil, currículo |
+| Robin (LinkedIn) | Montar o pacote de posts, buscar vagas, montar o lote de candidaturas | O pacote de posts; depois posta pelo navegador ("deixar como está, ela entra e consegue postar por mim"). O lote de candidaturas da semana; depois envia pelo navegador (2026-11-11, "Topo"; regras em `agentes\robin.md`) | Mensagem, convite, resposta a recrutador, edição de perfil, currículo fora de candidatura |
+
+## Padrão de resposta ao Luan
+
+Decisão do Luan (2026-11-11): "n consigo ficar lendo esses textos enormes toda hora".
+
+- **No máximo 5 linhas.** Primeira linha: o resultado (feito, bloqueado ou o que você precisa dele).
+- Depois, só se houver: **Precisa de você:** a decisão ou ação, uma por linha, com opções quando der.
+- Detalhe (arquivos, testes, evidências, o que não foi testado) vai para um arquivo ou para o relatório ao Luffy, com o caminho em uma linha. Não cole na resposta.
+- Sem recapitular o pedido, sem listar o que deu certo item por item, sem repetir o que o Luan já sabe.
+- Texto mais longo só quando o Luan pedir ("detalha", "explica") ou quando for um rascunho para ele aprovar.
 
 ## Economia de tokens
 
