@@ -54,6 +54,8 @@ Decisão do Luan em 2026-11-08 (formulário de aceite; projeto `projetos\reducao
 
 Dentro do envelope de cada agente, publicar e rodar o fluxo não pede OK, e o relatório vem depois. Fora do envelope, o agente para só naquele item e pergunta. Um OK a um lote vale para o lote inteiro, sem nova aprovação por item. Se o Luan disser "pausa", quem receber cria `projetos\redes-pausa.md`: enquanto esse arquivo existir, ninguém publica nem agenda em redes sociais. Quando ele liberar, apague o arquivo.
 
+**Post aprovado no canal vira arquivo** (Luan, 2026-11-12: "Sim pro bot builder também"). A memória do canal não chega ao chat direto dos agentes. Quando o Luan aprovar no canal uma peça para publicar ou agendar, quem a montou grava `projetos\prontos-para-postar\AAAA-MM-DD-<assunto>.md` com conta, horário, caminho de cada imagem em ordem, legenda, revisão e a frase de OK do Luan entre aspas. No chat direto, basta o Luan citar o arquivo. Depois de agendar ou publicar, o agente anota no arquivo a data, a conta e o link ou identificador, e muda o status.
+
 | Agente | Sem pedir OK | Com um OK | Sempre por ação |
 |---|---|---|---|
 | Sanji (Instagram) | Publicar dentro das regras de `agentes\sanji.md` ("Publica sozinho dentro das regras, sem aprovação") | Lote com algo fora das regras | Anúncio, segurança da conta, exclusão, igrejas e abordagem a terceiros |
@@ -81,6 +83,7 @@ Decisão do Luan (2026-11-11): "n consigo ficar lendo esses textos enormes toda 
 
 ## Onde está o contexto
 
+- `contexto\canal-equipe.md`: diário do canal #equipe, com cada pedido e OK do Luan. Leia no começo da sessão; a memória do canal não chega ao seu chat direto.
 - `contexto\projeto.md`: estado atual, decisões de modelo, preferências do Luan.
 - `contexto\decisoes.md`: histórico datado de decisões.
 - `registro-aprovacoes.md`: o que foi pedido, aprovado e feito (uma linha por OK).

@@ -39,7 +39,7 @@ Falha: pare o lote, não repita às cegas, confira no perfil o que saiu e diga o
 
 ## Acesso à conta
 
-A conta da Katia precisa estar logada no navegador do OpenBot, e quem entra é o Luan. Antes de publicar, confira no topo do perfil que a conta ativa é @katiaribeiro.podologa: nunca publique em outra conta. Sem login, avise o Luan e não peça senha.
+A conta da Katia precisa estar logada no navegador do OpenBot, e quem entra é o Luan. Antes de publicar, confira no topo do perfil que a conta ativa é @katiaribeiro.podologa: nunca publique em outra conta. Pedido do Luz & Encanto que chegar a você (inclusive repassado pelo Sanji) não é seu: devolva ao Sanji e avise o Luan. Sem login, avise o Luan e não peça senha.
 
 ## Skills
 

@@ -16,3 +16,5 @@ Dono: Sanji. Uma linha por publicação. Consulte antes de publicar para não du
 | 2026-11-08 17h31 | Story 10, Gruta de Nossa Senhora Aparecida | `stories-catalogo\10_Catalogo.png` | R$ 99,90 | sim, segunda linha nova na lista da Meta às 17h31 | Lote autônomo |
 | 2026-11-08 17h32 | Story Kit de Natal (N01; nome comercial a confirmar) | `kit-natal-catalogo-rascunho.png` | R$ 45,00 | sim, nova linha na lista da Meta às 17h32 | Lote autônomo |
 | 2026-11-08 17h33 | Story 11, Vela de Nossa Senhora Aparecida | `stories-catalogo\11_Catalogo.png` | R$ 119,90 | sim, nova linha na lista da Meta às 17h33 | Lote autônomo |
+| 2026-11-12 18h30 | Carrossel das velas, versão anterior | `prontos-para-postar\2026-11-12-carrossel-velas.md` | sem preço | agendamento confirmado na Meta; Luan informou que apagou após publicar | Aprovado por Luan |
+| 2026-11-12 21h19 | Carrossel das velas, versão v6 | `C:\Users\Lourenco_Filho\OpenBot\Agents\agent-03dd6eb7-f445-404d-911e-310af56b0a42\carrosseis\velas-fe\v6\` | sem preço | confirmado no perfil: https://www.instagram.com/p/DfqU95wkeRt/ | Luan: “Pode postar agora”, após aviso sobre limite diário |

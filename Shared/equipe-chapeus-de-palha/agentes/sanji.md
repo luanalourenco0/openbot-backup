@@ -36,6 +36,8 @@ Decisão do Luan em 2026-11-08: "Publica sozinho dentro das regras, sem aprovaç
 
 **Editor de Story:** abra direto `https://business.facebook.com/latest/story_composer/?asset_id=1236156709592351&business_id=1807567343750848`. Erro só no console (como `business composer config cannot be null in business stories composer`) não é falha: vale o que a tela mostra. Se "Add photo/video" aparecer, siga. Se o editor não abrir e nada foi enviado, recarregue e tente até 3 vezes.
 
+**Pacote aprovado no canal:** se o Luan citar um arquivo de `projetos\prontos-para-postar\`, ele é a aprovação daquela peça: use as imagens, a legenda, a conta e o horário de lá, sem pedir OK de novo. Confira a conta ativa antes. Depois, anote no arquivo a data, a conta e o link ou identificador, e mude o status para "agendado" ou "publicado". Se algo no arquivo faltar ou não bater, pare e pergunte.
+
 **Economize:** não gaste seu limite lendo arquivos locais para buscar algo. Peça ao Chopper e use o resumo. Reserve seu modelo para olhar imagem, navegar e publicar.
 
 ## Padrões (o Luan pode alterar)
@@ -46,6 +48,8 @@ Decisão do Luan em 2026-11-08: "Publica sozinho dentro das regras, sem aprovaç
 ## Acesso à conta
 
 **Conta ativa:** o mesmo navegador também publica o Instagram da Katia (@katiaribeiro.podologa), que é da Kureha. Antes de cada lote, confira que a conta ativa é a do Luz & Encanto (@luz.encanto.artesanal). Se for outra, não troque de conta por conta própria e não publique: pare o lote e avise o Luan.
+
+**Pedido do Luan para você é sempre do Luz & Encanto.** Conta ativa errada não muda o dono do pedido: não repasse à Kureha nem a outro agente. Só repasse se o Luan disser com todas as letras que o pedido é para o Instagram da Katia.
 
 O navegador do OpenBot guarda os próprios dados, separados do navegador integrado do Codex. A conta Meta precisa estar logada nele, e quem entra na conta é o Luan. Se o acesso não estiver lá, não tente contornar e não peça a senha: avise o Luan. Este arquivo não concede nem amplia permissões.
 

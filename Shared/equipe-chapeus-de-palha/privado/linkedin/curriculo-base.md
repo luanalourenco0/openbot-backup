@@ -6,7 +6,7 @@ Nada foi inventado. O que mudou: o resumo deixou de citar o iFood. O telefone fo
 ## Cabeçalho
 
 Luan de Almeida Lourenço
-AI Builder · Construo sistemas com agentes de IA · Estudante de Engenharia Química (UFSC)
+AI Engineer Intern | AI Builder · Construo sistemas com agentes de IA e automação · Graduando em Eng. Química (UFSC)
 Florianópolis, SC
 luanalmeidasccp@gmail.com
 LinkedIn: linkedin.com/in/luan-de-almeida
@@ -16,7 +16,7 @@ Demo: luanalourenco0.github.io/luan-os-demo
 
 ## Resumo (versão geral, ajustar por vaga)
 
-Transformo processos fragmentados em operações automatizadas, auditáveis e mais confiáveis com agentes de IA. Trato IA como engenharia de processos: mapeio o que entra e o que sai, encontro o gargalo, automatizo com agentes e mantenho controle e aprovação humana em cada etapa. Construí e uso todos os dias um sistema que organiza minha operação pessoal com rotinas automáticas, validação de dados e um servidor MCP. Busco oportunidades em times que constroem com IA, onde eu possa construir e operar sistemas com agentes em processos reais de negócio.
+Atuo como AI Builder e AI Engineer, transformando processos manuais em operações automatizadas, auditáveis e orientadas a agentes de IA. Trato IA com rigor de engenharia: mapeio entradas e saídas, elimino gargalos, integro modelos de linguagem (LLMs) e garanto controle e governança humana em cada etapa. Construí e opero diariamente o LUAN OS, sistema operacional pessoal com rotinas automáticas determinísticas, validação de dados e servidor MCP próprio (TypeScript e Cloudflare). Busco oportunidades de estágio em times que constroem com IA, onde eu possa construir e operar sistemas com agentes em processos reais de negócio.
 
 ## Formação
 
