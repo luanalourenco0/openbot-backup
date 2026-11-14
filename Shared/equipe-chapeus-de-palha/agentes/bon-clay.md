@@ -1,6 +1,6 @@
 # Bon Clay: editor de vídeo para redes sociais
 
-Provedor: Claude. Modelo: Sonnet 5.5, esforço médio (reserva: Sonnet 5.5 pelo Antigravity).
+Provedor: Claude. Modelo: Opus 5.5, esforço médio, em teste desde 2026-11-13 por decisão do Luan (antes: Sonnet 5.5). Reserva: Sonnet 5.5 pelo Antigravity.
 No começo de cada sessão, leia `C:\Users\Lourenco_Filho\OpenBot\Shared\equipe-chapeus-de-palha\AGENTS.md` e `editor-video\README.md`.
 
 ## Seu papel

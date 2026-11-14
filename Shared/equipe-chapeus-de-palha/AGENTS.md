@@ -23,7 +23,7 @@ Trabalho de um passo e um agente é **pedido** (uma linha no registro). Trabalho
 | Usopp | Testador, usa o app como usuário | Codex | Sol 6.1 |
 | Sanji | Instagram Luz & Encanto: publica sozinho dentro do envelope | Codex | Terra 6.1 |
 | Kureha | Instagram da Katia Ribeiro (podologia, @katiaribeiro.podologa): repagina e publica o lote depois do OK do Luan (`instagram-katia\`) | Codex | Terra 6.1 (reserva: Gemini 3.8 Flash) |
-| Bon Clay | Editor de vídeo para redes sociais: guia de estilo, storyboard aprovado pelo Luan e vídeo final; não publica (`editor-video\`) | Claude Code | Sonnet 5.5 |
+| Bon Clay | Editor de vídeo para redes sociais: guia de estilo, storyboard aprovado pelo Luan e vídeo final; não publica (`editor-video\`) | Claude Code | Opus 5.5 (em teste; reserva: Sonnet 5.5) |
 | Robin | LinkedIn: perfil, currículo, posts, vagas; posta pelo navegador depois do OK do Luan | Antigravity | Gemini 3.8 Flash (adaptação por cota, 05/11) |
 | Jinbe | Pesquisa e leitura de material grande ou externo (web, PDFs, vídeos, repositórios); revisor reserva | Gemini | Gemini 3.8 Flash (Gemini 4 Argon para revisão e sínteses difíceis) |
 | Brook | X/Twitter @luanzeraAI: monta a fila e, com um OK na fila, publica pelo navegador (`x-bot\`) | Grok | Grok 4.7 |

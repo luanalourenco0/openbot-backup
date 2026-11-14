@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "skills": {
+    "local-skill-aa77963c-c30f-4241-b6f9-f03aeaa9de63": {
+      "skillId": "local-skill-aa77963c-c30f-4241-b6f9-f03aeaa9de63",
+      "versionId": "1",
+      "slug": "backup-noturno-do-openbot",
+      "name": "Backup noturno do OpenBot",
+      "version": 1,
+      "bundleSha256": "cfbc49f0f5866daefbb417264023aeee6d43f8ecbef5a5ee9e3c72f5d3bc1fa8",
+      "receiptId": "0b23a14b-41fa-4968-a0b1-20b1674d1b59",
+      "files": {
+        "SKILL.md": "28d3a492f54e02ac330635ec5da0250448a59532b624c11b7ce833da2fdb98c3"
+      },
+      "description": "Faz o backup noturno privado dos arquivos dos agentes OpenBot para o repositório GitHub privado openbot-backup, com checagem de segredos, exclusão de fotos e dados de clientes e commit só quando houver mudanças. Use em toda rodada de backup do OpenBot."
+    }
+  }
+}

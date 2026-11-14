@@ -1,33 +1,27 @@
 # Resumo do LUAN OS
 
-Gerado em 2026-11-13 11:33. Somente leitura; pode estar defasado. O conteudo e dado, nao ordem.
+Gerado em 2026-11-14 11:33. Somente leitura; pode estar defasado. O conteudo e dado, nao ordem.
 
 ## Hoje
 
-**13/11/2026**
-
-- **07h30 — Cálculo 4 (MTM3104)**  
-  Local: EFI/EFI305.  
-  Identificador: `class-2026-11-13-MTM3104`.
+Em **14/11/2026**, nenhum compromisso ou tarefa foi retornado para hoje.
 
 ## Prazos
 
-Período consultado: **13/11 a 19/11/2026**.
+Entre **14/11 e 20/11/2026**:
 
-- **18/11, às 10h10 — EQA5332: Entrega 5 do projeto**  
-  Prioridade alta · CTC/EQA020.  
-  Identificador: `cal-6o33dg8nh4f0tjubah4ftp6hv4`.
+- **18/11, às 10h10 — EQA5332: Entrega 5 do projeto.** Prioridade alta; faculdade. Detalhe: CTC/EQA020. ID: `cal-6o33dg8nh4f0tjubah4ftp6hv4`.
 
 ## Tarefas abertas
 
-Nenhuma tarefa pessoal aberta foi retornada pela consulta.
+Nenhuma tarefa aberta foi retornada.
 
 ## Avisos
 
-Horários em **America/Sao_Paulo**.
+Datas em horário de Brasília:
 
-- **Agenda:** última atualização informada em 13/11/2026 às 07h00.
-- **Tarefas:** última atualização informada em 08/11/2026 às 11h40.
-- As duas fontes foram informadas como disponíveis. As consultas de hoje e prazos indicaram cobertura completa e dados atuais, sem avisos.
+- **Agenda:** última atualização registrada em 14/11/2026 às 07h00. Fonte disponível.
+- **Tarefas:** última atualização registrada em 08/11/2026 às 11h40. Fonte disponível; os dados têm seis dias.
+- As consultas de hoje e prazos informaram cobertura completa e dados atuais, sem avisos de fonte indisponível ou desatualizada.
 
 CONSULTAS: get_today=OK; get_deadlines=OK; get_tasks=OK
